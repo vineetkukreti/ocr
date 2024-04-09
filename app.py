@@ -4,7 +4,7 @@ from pathlib import Path
 import google.generativeai as genai
 
 # Set Google API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAroxf06TrvDGFDiWAdr5m8AUuqoqMe_TY"
+os.environ['GOOGLE_API_KEY'] = "paste_you_api"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Model Configuration
